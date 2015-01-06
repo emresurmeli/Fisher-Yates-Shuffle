@@ -12,3 +12,5 @@ var shuffle = function (array) {
   }
   return array;
 }
+
+shuffle(array);
