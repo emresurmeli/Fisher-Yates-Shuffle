@@ -1,4 +1,5 @@
-var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var array1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var array2 = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"]
 
 var shuffle = function (array) {
   var m = array.length, t, i;
@@ -13,4 +14,5 @@ var shuffle = function (array) {
   return array;
 }
 
-shuffle(array);
+shuffle(array1);
+shuffle(array2);
