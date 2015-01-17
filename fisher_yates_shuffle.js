@@ -3,8 +3,8 @@ selects a random array element(i) as well
 as a card from the top of the stack(t) and 
 flips their places within the array. */
 
-var array1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-var array2 = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"]
+var array1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+var array2 = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven"]
 
 
 var shuffle = function (array) {
