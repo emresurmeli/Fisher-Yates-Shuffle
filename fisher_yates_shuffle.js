@@ -13,6 +13,7 @@ var shuffle = function (array) {
   while(m) {
     i = Math.floor(Math.random() * m--);
 
+    // a = b = c = a
     t = array[m];
     array[m] = array[i];
     array[i] = t;
